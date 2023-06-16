@@ -87,11 +87,17 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-/* ---------------------- Base Header - Footer Styles -------------------- */
+/* ----- Base Header - Footer Styles ----- */
 
 header {
   display: flex;
   justify-content: center;
+}
+
+header .content-wrapper {
+}
+
+header nav ul {
 }
 
 footer {
@@ -100,6 +106,46 @@ footer {
   align-items: center;
   text-align: center;
 }
+
+footer .social-icons {
+}
+
+footer .social p {
+}
+
+/* ----- Base Home Page Main Section Styles ----- */
+
+.hero-area {
+}
+
+aside {
+}
+
+.features {
+}
+
+.features .features-items {
+}
+
+.reviews {
+}
+
+/* ----- Base About Page Styles ----- */
+
+.mission {
+}
+
+.contact-section {
+}
+
+/* ----- Base FAQ Page Styles ----- */
+
+.faq {
+}
+
+.faq .content-wrapper {
+}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
