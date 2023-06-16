@@ -116,31 +116,38 @@ footer .social p {
 /* ----- Base Home Page Main Section Styles ----- */
 
 .hero-area {
+  display: flex;
 }
 
 aside {
+  display: flex;
 }
 
 .features {
+  display: flex;
 }
 
 .features .features-items {
 }
 
 .reviews {
+  display: flex;
 }
 
 /* ----- Base About Page Styles ----- */
 
 .mission {
+  display: flex;
 }
 
 .contact-section {
+  display: flex;
 }
 
 /* ----- Base FAQ Page Styles ----- */
 
 .faq {
+  display: flex;
 }
 
 .faq .content-wrapper {
