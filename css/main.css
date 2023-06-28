@@ -125,25 +125,41 @@ footer .social p {
   align-items: center;
 }
 
-/* ----- Base Home Page Main Section Styles ----- */
+/* ----- Mobile Styles - Homepage ----- */
+
+/* Hero Area */
 
 .hero-area {
   display: flex;
+  justify-content: center;
 }
+
+/* Aside */
 
 aside {
   display: flex;
+  justify-content: center;
 }
+
+/* Features */
 
 .features {
   display: flex;
+  justify-content: center;
 }
 
 .features .features-items {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-flow: row wrap;
 }
+
+/* Reviews */
 
 .reviews {
   display: flex;
+  justify-content: center;
 }
 
 /* ----- Base About Page Styles ----- */
