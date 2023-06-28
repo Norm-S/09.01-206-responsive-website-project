@@ -114,9 +114,15 @@ footer {
 }
 
 footer .social-icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 footer .social p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* ----- Base Home Page Main Section Styles ----- */
