@@ -94,6 +94,10 @@ header {
   justify-content: center;
 }
 
+.content-wrapper {
+  width: 90%;
+}
+
 header .content-wrapper {
   display: flex;
   justify-content: center;
@@ -101,9 +105,19 @@ header .content-wrapper {
   flex-flow: row wrap;
 }
 
+.header-divider {
+  border: 1px solid black;
+  width: 95%;
+}
+
+header nav {
+  width: 60%;
+}
+
 header nav ul {
   display: flex;
   justify-content: space-around;
+  width: 60%;
 }
 
 footer {
@@ -111,6 +125,11 @@ footer {
   flex-direction: column;
   align-items: center;
   text-align: center;
+}
+
+footer .content-wrapper {
+  width: 55%;
+  margin: 50px 0;
 }
 
 footer .social-icons {
@@ -148,6 +167,10 @@ aside {
   justify-content: center;
 }
 
+.features article {
+  width: 60%;
+}
+
 .features .features-items {
   display: flex;
   justify-content: center;
@@ -160,6 +183,10 @@ aside {
 .reviews {
   display: flex;
   justify-content: center;
+}
+
+.reviews h3 {
+  width: 50%;
 }
 
 /* ----- About Page ----- */
