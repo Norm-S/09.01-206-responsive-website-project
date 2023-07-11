@@ -362,9 +362,13 @@ aside p {
 
   .content-wrapper {
     max-width: 640px;
+    margin: 100px 0;
   }
 
   /* Header */
+  header {
+  }
+
   header .content-wrapper {
     width: 100%;
   }
@@ -373,18 +377,41 @@ aside p {
     width: 20%;
   }
 
+  header nav ul {
+  }
+
+  .header-divider {
+    display: none;
+  }
+
+  /* Hero Area */
+  .hero-area h1 {
+    margin: 0;
+  }
+
   /* Aside */
+  aside .content-wrapper {
+    margin: 50px 0;
+  }
+
   aside .content-wrapper .form-description,
   aside .content-wrapper .form {
     width: 40%;
+    margin: 0;
   }
 
   /* Features */
+  .features article {
+  }
+
   .features .features-items-description {
     width: 50%;
   }
 
   /* Reviews */
+  .reviews article {
+  }
+
   .reviews article div {
     width: 50%;
   }
@@ -392,6 +419,10 @@ aside p {
   /* Footer */
   footer .content-wrapper {
     width: 65%;
+  }
+
+  footer .contact {
+    margin-bottom: 0;
   }
 
   footer .copyright {
