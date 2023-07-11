@@ -411,6 +411,7 @@ aside p {
     display: flex;
     align-items: center;
     flex-flow: column wrap;
+    flex-basis: 50%;
   }
 
   .features .features-items-description {
