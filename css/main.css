@@ -371,6 +371,7 @@ aside p {
 
   header .content-wrapper {
     width: 100%;
+    justify-content: space-between;
   }
 
   header nav {
@@ -378,6 +379,7 @@ aside p {
   }
 
   header nav ul {
+    justify-content: space-between;
   }
 
   .header-divider {
@@ -392,6 +394,9 @@ aside p {
   /* Aside */
   aside .content-wrapper {
     margin: 50px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
   }
 
   aside .content-wrapper .form-description,
@@ -402,6 +407,9 @@ aside p {
 
   /* Features */
   .features article {
+    display: flex;
+    align-items: center;
+    flex-flow: column wrap;
   }
 
   .features .features-items-description {
@@ -410,6 +418,8 @@ aside p {
 
   /* Reviews */
   .reviews article {
+    display: flex;
+    justify-content: space-between;
   }
 
   .reviews article div {
@@ -419,6 +429,9 @@ aside p {
   /* Footer */
   footer .content-wrapper {
     width: 65%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
 
   footer .contact {
