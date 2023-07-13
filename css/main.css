@@ -534,8 +534,15 @@ aside p {
   /* Footer */
 
   /*----- About Page ----- */
+  .mission h2,
+  .contact-section .content-wrapper h2 {
+    width: 90%;
+  }
 
   /*----- FAQ Page ----- */
+  .faq h2 {
+    width: 100%;
+  }
 }
 
 /* ==========================================================================
