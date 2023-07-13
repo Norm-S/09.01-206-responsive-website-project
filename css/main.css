@@ -425,12 +425,15 @@ aside p {
   }
 
   .reviews article div {
-    width: 50%;
+    width: 49%;
   }
 
   /* Footer */
   footer .content-wrapper {
     width: 65%;
+  }
+
+  .footer-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
