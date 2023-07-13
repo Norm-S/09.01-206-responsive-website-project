@@ -474,8 +474,16 @@ aside p {
     align-items: flex-start;
   }
   /* ------- FAQ Page ------- */
+  .faq .content-wrapper {
+    justify-content: space-between;
+  }
+
   .faq-content {
     flex-basis: 45%;
+  }
+
+  .faq h2 {
+    width: 100%;
   }
 }
 
