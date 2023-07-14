@@ -91,9 +91,12 @@ textarea {
 /* General Styles */
 
 html {
+  font-size: 1rem;
 }
 
 body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1em;
 }
 
 ul,
@@ -104,10 +107,12 @@ a {
 }
 
 h2 {
+  font-family: "Poppins", sans-serif;
 }
 
 h3,
 h4 {
+  font-family: "Poppins", sans-serif;
 }
 
 p {
