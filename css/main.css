@@ -101,6 +101,7 @@ body {
 
 ul,
 ol {
+  list-style-type: none;
 }
 
 a {
@@ -120,6 +121,8 @@ h4 {
 }
 
 p {
+  font-size: 0.875em;
+  line-height: 1.125em;
 }
 
 img {
@@ -129,6 +132,7 @@ figure {
 }
 
 address {
+  font-style: normal;
 }
 
 .content-wrapper {
@@ -165,7 +169,6 @@ header nav {
 header nav ul {
   display: flex;
   justify-content: space-around;
-  list-style: none;
   width: 100%;
 }
 
