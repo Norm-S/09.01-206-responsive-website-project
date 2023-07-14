@@ -500,12 +500,12 @@ aside p {
 
   /* Hero */
   .hero-area h1 {
-    width: 70%;
+    width: 80%;
   }
 
   /* Aside */
   aside .content-wrapper {
-    justify-content: space-between;
+    justify-content: space-around;
   }
 
   aside .content-wrapper .form-description,
@@ -528,7 +528,7 @@ aside p {
   }
 
   .reviews article div {
-    width: 50%;
+    width: 42%;
   }
 
   /* Footer */
@@ -536,7 +536,7 @@ aside p {
   /*----- About Page ----- */
   .mission h2,
   .contact-section .content-wrapper h2 {
-    width: 90%;
+    width: 95%;
   }
 
   /*----- FAQ Page ----- */
