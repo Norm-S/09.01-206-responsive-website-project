@@ -355,6 +355,10 @@ aside p {
 .faq-content {
   margin-bottom: 50px;
 }
+
+.faq-content h4 {
+  line-height: 1.333;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -446,9 +450,20 @@ aside p {
 @media only screen and (min-width: 768px) {
   /*--- Tablet styles here ---*/
 
+  /* General Tablet Styles */
   .content-wrapper {
     max-width: 640px;
     margin: 100px 0;
+  }
+
+  h2 {
+    font-size: 2.25em;
+    line-height: 1.333;
+  }
+
+  h3 {
+    font-size: 1.5em;
+    line-height: 1.25;
   }
 
   /* Header */
@@ -475,6 +490,8 @@ aside p {
 
   /* Hero Area */
   .hero-area h1 {
+    font-size: 3em;
+    line-height: 1;
     margin: 0;
   }
 
@@ -529,6 +546,15 @@ aside p {
     margin-bottom: 0;
   }
 
+  footer h4 {
+    font-size: 1.5em;
+    margin-bottom: 40px;
+  }
+
+  footer p {
+    line-height: 1.285;
+  }
+
   footer .copyright {
     width: 100%;
   }
@@ -559,6 +585,11 @@ aside p {
     justify-content: space-between;
     align-items: flex-start;
   }
+
+  .contact-content h4 {
+    font-size: 1.5em;
+  }
+
   /* ------- Tablet FAQ Page ------- */
   .faq .content-wrapper {
     justify-content: space-between;
@@ -572,8 +603,10 @@ aside p {
     width: 100%;
   }
 
-  .faq-content h4 {
-    line-height: 1.333;
+  .faq h4,
+  .faq p {
+    font-size: 0.875em;
+    line-height: 1.125;
   }
 }
 
