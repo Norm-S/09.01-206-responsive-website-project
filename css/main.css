@@ -169,6 +169,7 @@ header nav {
   width: 60%;
   font-size: 1.125em;
   font-weight: bold;
+  text-transform: uppercase;
 }
 
 header nav ul {
@@ -295,6 +296,7 @@ aside p {
 }
 
 .features p {
+  text-align: center;
   margin: 0;
 }
 
