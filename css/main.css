@@ -112,17 +112,19 @@ a {
 h2 {
   font-family: "Poppins", sans-serif;
   font-size: 1.875em;
+  font-weight: 500;
 }
 
 h3,
 h4 {
   font-family: "Poppins", sans-serif;
   font-size: 1.125em;
+  font-weight: 500;
 }
 
 p {
   font-size: 0.875em;
-  line-height: 1.125em;
+  line-height: 1.285;
 }
 
 img {
@@ -211,7 +213,7 @@ footer .copyright {
   margin: 20px 0;
 }
 
-/* ----- Aside/Form Field ----- */
+/* ----- Aside Form Field ----- */
 aside .form {
   margin-top: 30px;
 }
@@ -245,6 +247,13 @@ input[type="button"] {
 .hero-area {
   display: flex;
   justify-content: center;
+}
+
+.hero-area h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 2.25em;
+  font-weight: 500;
+  line-height: 1.2;
 }
 
 /* Aside */
@@ -297,6 +306,7 @@ aside p {
 }
 
 .reviews h2 {
+  line-height: 1;
   margin-bottom: 40px;
 }
 
@@ -337,6 +347,7 @@ aside p {
 }
 
 .faq h2 {
+  line-height: 1;
   margin-bottom: 40px;
 }
 
@@ -521,7 +532,7 @@ aside p {
     width: 100%;
   }
 
-  /* ------- About Page ------ */
+  /* ------- Tablet About Page ------ */
 
   .mission-content {
     display: flex;
@@ -547,7 +558,7 @@ aside p {
     justify-content: space-between;
     align-items: flex-start;
   }
-  /* ------- FAQ Page ------- */
+  /* ------- Tablet FAQ Page ------- */
   .faq .content-wrapper {
     justify-content: space-between;
   }
@@ -558,6 +569,10 @@ aside p {
 
   .faq h2 {
     width: 100%;
+  }
+
+  .faq-content h4 {
+    line-height: 1.333;
   }
 }
 
@@ -607,13 +622,13 @@ aside p {
 
   /* Footer */
 
-  /*----- About Page ----- */
+  /*----- Desktop About Page ----- */
   .mission h2,
   .contact-section .content-wrapper h2 {
     width: 95%;
   }
 
-  /*----- FAQ Page ----- */
+  /*----- Desktop FAQ Page ----- */
   .faq h2 {
     width: 100%;
   }
