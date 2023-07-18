@@ -612,8 +612,24 @@ aside p {
 
 @media only screen and (min-width: 1200px) {
   /*--- Desktop styles here --- */
+
+  /* General Desktop Styles */
   .content-wrapper {
     max-width: 960px;
+  }
+
+  h2 {
+    font-size: 2.25em;
+  }
+
+  h3,
+  h4 {
+    font-size: 1.875em;
+  }
+
+  p {
+    font-size: 1.125em;
+    line-height: 1.333;
   }
 
   /* Header */
@@ -623,6 +639,7 @@ aside p {
 
   /* Hero */
   .hero-area h1 {
+    font-size: 3.75em;
     width: 80%;
   }
 
@@ -665,6 +682,12 @@ aside p {
   /*----- Desktop FAQ Page ----- */
   .faq h2 {
     width: 100%;
+  }
+
+  .faq h4,
+  .faq p {
+    font-size: 1.125em;
+    line-height: 1;
   }
 }
 
