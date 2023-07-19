@@ -521,6 +521,10 @@ aside p {
   }
 
   /* Features */
+  .features h2 {
+    margin-bottom: 20px;
+  }
+
   .features article {
     display: flex;
     align-items: center;
@@ -529,7 +533,7 @@ aside p {
   }
 
   .features .features-items-description {
-    width: 50%;
+    width: 62%;
   }
 
   /* Reviews */
