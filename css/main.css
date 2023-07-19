@@ -239,6 +239,7 @@ footer .copyright {
 /* Aside */
 
 aside {
+  background-color: #527158;
   display: flex;
   justify-content: center;
 }
@@ -323,6 +324,7 @@ aside p {
 /* ----- About Page ----- */
 
 .mission {
+  background-color: #527158;
   display: flex;
   justify-content: center;
 }
@@ -340,6 +342,7 @@ aside p {
 /* ----- FAQ Page ----- */
 
 .faq {
+  background-color: #527158;
   display: flex;
   justify-content: center;
 }
