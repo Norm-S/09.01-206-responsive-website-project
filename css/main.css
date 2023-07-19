@@ -97,6 +97,7 @@ html {
 body {
   font-family: "Open Sans", sans-serif;
   font-size: 1em;
+  color: #e2e3ed;
 }
 
 ul,
@@ -305,6 +306,7 @@ aside p {
 .reviews {
   display: flex;
   justify-content: center;
+  background-color: #2a423a;
 }
 
 .reviews h2 {
@@ -324,6 +326,7 @@ aside p {
 }
 
 .contact-section {
+  background-color: #2a423a;
   display: flex;
   justify-content: center;
 }
