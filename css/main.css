@@ -664,6 +664,14 @@ aside p {
   }
 
   /* Hero */
+  .hero-area {
+    background: url("../img/unplugged-retreat.jpg") center no-repeat #333;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    height: 600px;
+  }
+
   .hero-area h1 {
     font-size: 3.75em;
     width: 80%;
