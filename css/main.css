@@ -170,6 +170,10 @@ header .content-wrapper {
   margin: 0;
 }
 
+header figure {
+  width: 60%;
+}
+
 .header-divider {
   background-color: #3a3a3a;
   width: 100%;
