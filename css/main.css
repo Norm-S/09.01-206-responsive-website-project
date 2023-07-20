@@ -703,11 +703,13 @@ aside p {
   .mission h2,
   .contact-section .content-wrapper h2 {
     width: 95%;
+    font-size: 3em;
   }
 
   /*----- Desktop FAQ Page ----- */
   .faq h2 {
     width: 100%;
+    font-size: 3em;
   }
 
   .faq h4,
