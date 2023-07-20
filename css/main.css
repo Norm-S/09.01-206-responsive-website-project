@@ -131,10 +131,17 @@ p {
   line-height: 1.285;
 }
 
-img {
+img,
+iframe {
+  width: 100%;
+}
+
+iframe {
+  height: 100%;
 }
 
 figure {
+  margin: 0;
 }
 
 address {
@@ -228,6 +235,8 @@ footer .copyright {
 /* Hero Area */
 
 .hero-area {
+  background: url("../img/unplugged-retreat.jpg") center no-repeat #333;
+  background-size: cover;
   display: flex;
   justify-content: center;
 }
@@ -282,6 +291,8 @@ aside p {
 /* Features */
 
 .features {
+  background: url(../img/unplugged-retreat-features.jpg) center no-repeat #333;
+  background-size: cover;
   display: flex;
   justify-content: center;
 }
@@ -598,7 +609,7 @@ aside p {
     width: 45%;
   }
 
-  .mission figure {
+  .map figure {
     height: 350px;
   }
 
@@ -665,10 +676,6 @@ aside p {
 
   /* Hero */
   .hero-area {
-    background: url("../img/unplugged-retreat.jpg") center no-repeat #333;
-    background-size: cover;
-    display: flex;
-    justify-content: center;
     height: 600px;
   }
 
@@ -712,6 +719,10 @@ aside p {
   .contact-section .content-wrapper h2 {
     width: 95%;
     font-size: 3em;
+  }
+
+  .map figure {
+    height: 450px;
   }
 
   /*----- Desktop FAQ Page ----- */
