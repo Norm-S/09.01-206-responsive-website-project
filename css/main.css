@@ -348,6 +348,10 @@ aside p {
   justify-content: center;
 }
 
+.map figure {
+  height: 450px;
+}
+
 .contact-section {
   background-color: #2a423a;
   display: flex;
@@ -570,6 +574,10 @@ aside p {
     width: 85%;
   }
 
+  .reviews figure {
+    width: 49%;
+  }
+
   .reviews article div {
     width: 49%;
   }
@@ -687,6 +695,10 @@ aside p {
     padding: 15px 0;
   }
 
+  header figure {
+    width: 30%;
+  }
+
   /* Hero */
   .hero-area {
     height: 600px;
@@ -710,6 +722,10 @@ aside p {
   /* Features */
   .features h2 {
     width: 90%;
+  }
+
+  .features figure {
+    width: 49%;
   }
 
   .features article {
