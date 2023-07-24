@@ -576,10 +576,7 @@ aside p {
     width: 85%;
   }
 
-  .reviews figure {
-    width: 49%;
-  }
-
+  .reviews article figure,
   .reviews article div {
     width: 49%;
   }
