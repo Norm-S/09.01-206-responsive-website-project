@@ -205,10 +205,6 @@ footer .contact {
   margin-bottom: 50px;
 }
 
-footer h4 {
-  margin: 20px 0;
-}
-
 footer p {
   margin: 0;
 }
@@ -219,10 +215,18 @@ footer .social-icons {
   align-items: center;
 }
 
-footer .social p {
+footer .social-icons p {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #527158;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+footer .social-icons p i {
+  font-size: 1.3125em;
 }
 
 footer .copyright {
