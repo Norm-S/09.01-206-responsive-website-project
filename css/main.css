@@ -632,6 +632,11 @@ aside p {
     padding-bottom: 100px;
   }
 
+  footer .social-icons {
+    width: 12.5em;
+    justify-content: space-between;
+  }
+
   footer .copyright {
     width: 100%;
   }
